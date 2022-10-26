@@ -5,21 +5,26 @@ body {
 div {
     border: 1px solid rgba(0, 0, 0, 0.493);
     padding: 5px;
-    margin: 10px;
+    margin: 8px;
 }
 
 #user, .name {
-    background-color: yellow;
+    background-color: #F2B04E;
 }
 
 #email, .email {
-    background-color: orange;
+    background-color: #A0A0A0;
 }
 
 #review, .review {
-    background-color: grey;
+    background-color: #D8D8D8;
 }
 
+#userNumber, .number {
+    border: 1px solid rgba(0, 0, 0, 0.003);
+    background-color: #F4CF98;
+
+}
 
 
 

@@ -14,10 +14,13 @@ function createElement(tagName, text, className) {
 
 
 data.forEach(function(element) {
-    const {name, email, body} = element; 
-    const arr = [createElement ("div", name, "name"),createElement ("div", email, "email"), createElement ("div", body, "review")]
+    const {name, email, id, body} = element; 
+    const arr = [createElement ("div", id, "number"), createElement ("div", name, "name"),createElement ("div", email, "email"),createElement ("div", body, "review")]
 
     document.querySelector(".root").append(...arr); 
+
+    let userNumber = document.querySelector("#userNumber")
+    userNumber.innerHTML = `Number: ${id}`;
 
     let userName = document.querySelector("#user")
     userName.innerHTML = `Name: ${name}`;
