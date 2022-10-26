@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    padding: 5px;
+    margin: 10px;
+}
+
+#user, .name {
+    background-color: yellow;
+}
+
+#email, .email {
+    background-color: orange;
+}
+
+#review, .review {
+    background-color: grey;
+}
+
+
+
+
